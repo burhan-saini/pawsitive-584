@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>LokalShop Store</title>
+<title>Uitm</title>
 
 <style>
 
