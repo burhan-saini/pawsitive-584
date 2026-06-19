@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style_584.css">
+        <title>Admin</title>
+        
+        <!-- GOOGLE FONT -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        
+        <!-- ICONS -->
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    </head>
+
+    <body>
+        <div class="container">
+        
+        <!-- Sidebar -->
+            <div class="sidebar">
+                <div class="logo">Administrator</div>
+                    <ul>
+                        <li><a href="dashboard.html"><i class="fas fa-home"></i>Home</a></li>
+                    </ul>
+                </div>
+
+        <!-- Main content -->
+                <div class="main">
+                    <div class="section">
+                        <div class="section-title">
+                            <h2>Create / Update Product</h2>
+                        </div>
+
+                        <form>
+                            <label for="productName">Product Name:</label>
+                            <input type="text" id="productName" placeholder="Product name"><br><br>
+
+                            <label for="productDesc">Description:</label>
+                            <textarea id="productDesc" placeholder="Product description"></textarea><br><br>
+
+                            <label for="price">Price:</label>
+                            <input type="number" id="price" placeholder="Price" step="0.01"><br><br>
+
+                            <label for="quantity">Quantity:</label>
+                            <input type="number" id="quantity" placeholder="Quantity"><br><br>
+
+                            <label for="category">Category:</label>
+                            <select id="category">
+                                <option value="">-- Select Category --</option>
+                                <option value="food">Food</option>
+                                <option value="toy">Toy</option>
+                                <option value="fashion">Fashion</option>                            </select>
+                            <br><br>
+
+                            <label for="image">Product Image:</label>
+                            <input type="file" id="image" accept="image/*"><br><br>
+
+                            <div class="actions" style="margin-top:20px;">
+                                <button class="login" type="button">Create</button>
+                                <button class="signup" type="button">Update</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="section">
+                        <div class="section-title">
+                            <h2>Product List</h2>
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Product Name</th>
+                                    <th>Description</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Whiskas 1kg</td>
+                                    <td>Cat food in 1kg</td>
+                                    <td>RM 35.90</td>
+                                    <td>25</td>
+                                    <td><span class="status pending">Pending</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Dog Treadmill</td>
+                                    <td>Fitness equipment for dog</td>
+                                    <td>RM149.99</td>
+                                    <td>12</td>
+                                    <td><span class="status active">Active</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <footer>
+                    © 2026 PAW-STIVE Dashboard
+                    </footer>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
