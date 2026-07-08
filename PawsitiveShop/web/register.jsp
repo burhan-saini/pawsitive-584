@@ -1,7 +1,7 @@
 <%-- 
     Document   : register
     Created on : Jun 26, 2026, 8:48:24 PM
-    Author     : User
+    Author     : Ryq
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
