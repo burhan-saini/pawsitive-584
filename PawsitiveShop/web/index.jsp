@@ -36,16 +36,16 @@
                         <div class="section-title">
                             <h2>Sign in to Pawsitive</h2>
                         </div>
-
-                        <form action="" method="post" id="login-form">
-                            <label for="username">Username:</label>
-                            <input type="text" id="username" placeholder="Enter username" required>
+                        <form action="LoginServlet" method="post" id="login-form">
+                            <label for="Email">Email:</label>
+                            <input type="email" id="email" placeholder="Enter email" required>
 
                             <label for="password">Password:</label>
                             <input type="password" id="password" placeholder="Enter password" required>
 
                             <div class="actions" style="margin-top:20px;">
-                                <button class="login" type="submit">Login</button>
+                                <button type="submit">Login</button>
+                                <p>Don't have an account?<a href="Register.jsp" >Register</a></p>
                             </div>
                         </form>
                     </div>
