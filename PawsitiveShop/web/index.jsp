@@ -37,7 +37,7 @@
                             <h2>Sign in to Pawsitive</h2>
                         </div>
 
-                        <form action="" method="post">
+                        <form action="" method="post" id="login-form">
                             <label for="username">Username:</label>
                             <input type="text" id="username" placeholder="Enter username" required>
 
@@ -45,7 +45,7 @@
                             <input type="password" id="password" placeholder="Enter password" required>
 
                             <div class="actions" style="margin-top:20px;">
-                                <button class="signup" type="submit">Sign Up</button>
+                                <button class="login" type="submit">Login</button>
                             </div>
                         </form>
                     </div>
